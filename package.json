@@ -17,7 +17,8 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why"
+    "analyze": "size-limit --why",
+    "cosmos": "cosmos"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -47,11 +48,15 @@
     }
   ],
   "devDependencies": {
+    "@babel/preset-react": "^7.13.13",
     "@size-limit/preset-small-lib": "^4.10.2",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "4",
     "husky": "^6.0.0",
     "react": "^17.0.2",
+    "react-cosmos": "^5.6.2",
     "react-dom": "^17.0.2",
     "size-limit": "^4.10.2",
     "tsdx": "^0.14.1",
