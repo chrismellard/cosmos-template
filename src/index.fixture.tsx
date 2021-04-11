@@ -1,4 +1,4 @@
 import React from 'react'
-import {Thing} from "./index";
+import {Title} from "./index";
 
-export default <Thing/>
+export default <Title>Hello World</Title>
