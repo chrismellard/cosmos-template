@@ -19,6 +19,10 @@ module.exports = (webpackConfig, env) => {
             }
           }
         },
+        {
+          test: /\.svg$/,
+          use: ['@svgr/webpack'],
+        },
       ]
     },
     plugins: [
