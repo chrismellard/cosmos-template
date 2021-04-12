@@ -1,3 +1,3 @@
-import {ReactComponent as Chevron} from './chevron.svg'
+import Chevron from './chevron.svg'
 
 export default Chevron
