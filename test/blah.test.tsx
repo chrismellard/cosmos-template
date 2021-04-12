@@ -2,7 +2,6 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Title } from '../src';
 import SvgComponent from '../src/svg';
-import Chevron from '../src/svg-external';
 import StyledChevron from '../src/svg-external-styled';
 
 describe('it', () => {
@@ -17,14 +16,6 @@ describe('it', () => {
   it('svg renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(<SvgComponent />, div);
-    ReactDOM.unmountComponentAtNode(div);
-  });
-});
-
-describe('it', () => {
-  it('external svg renders without crashing', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Chevron />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 });
