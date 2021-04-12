@@ -1,9 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Title } from '../src';
-import SvgComponent from "../src/svg";
-import Chevron from "../src/svg-external";
-import StyledChevron from "../src/svg-external-styled";
+import SvgComponent from '../src/svg';
+import Chevron from '../src/svg-external';
+import StyledChevron from '../src/svg-external-styled';
 
 describe('it', () => {
   it('title renders without crashing', () => {
@@ -16,7 +16,7 @@ describe('it', () => {
 describe('it', () => {
   it('svg renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<SvgComponent/>, div);
+    ReactDOM.render(<SvgComponent />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 });
@@ -24,7 +24,7 @@ describe('it', () => {
 describe('it', () => {
   it('external svg renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<Chevron/>, div);
+    ReactDOM.render(<Chevron />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 });
@@ -32,7 +32,7 @@ describe('it', () => {
 describe('it', () => {
   it('external styled svg renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<StyledChevron/>, div);
+    ReactDOM.render(<StyledChevron />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 });

@@ -1,4 +1,4 @@
-import React from "react";
-import SvgComponent from "./svg";
+import React from 'react';
+import SvgComponent from './svg';
 
-export default <SvgComponent/>
+export default <SvgComponent />;

@@ -1,4 +1,4 @@
-import React from "react";
-import Chevron from "./svg-external";
+import React from 'react';
+import Chevron from './svg-external';
 
-export default <Chevron/>
+export default <Chevron />;
